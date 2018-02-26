@@ -1,0 +1,26 @@
+{
+  "author": {
+    "name": "Rumen Rumenov",
+    "email": "mmetalonlyy@gmail.com"
+  },
+  "bin": {
+    "ramster": "./index.js"
+  },
+  "name": "ramster-cli",
+  "version": "1.0.0-beta.0",
+  "description": "A cli that goes hand-in-hand with ramster.",
+  "main": "index.js",
+  "scripts": {},
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.3.1",
+    "co": "^4.6.0",
+    "fs-extra": "^5.0.0",
+    "path": "^0.12.7",
+    "request-promise-native": "^1.0.5",
+    "yargs": "^11.0.0"
+  },
+  "engines": {
+    "node": ">= 8.9.4"
+  }
+}
