@@ -11,7 +11,7 @@
   "description": "A cli that goes hand-in-hand with ramster.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha index.spec.js",
+    "test-local": "mocha index.spec.js",
     "test-travis": "mocha index.spec.js --configProfile=travisTest"
   },
   "license": "MIT",
