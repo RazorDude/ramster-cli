@@ -13,4 +13,5 @@ install:
   - npm i
   - npm i ramster
   - npm i mocha -g
+scripts:
   - npm run test-travis
