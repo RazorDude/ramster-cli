@@ -1,0 +1,16 @@
+sudo: enabled
+language: node_js
+node_js:
+  - "lts/*"
+cache:
+  directories:
+    - node_modules
+    - $HOME/.npm
+branches:
+  only:
+    - master
+install:
+  - npm i
+  - npm i ramster
+  - npm i mocha -g
+  - npm run test-travis

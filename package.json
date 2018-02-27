@@ -10,17 +10,29 @@
   "version": "1.0.0-beta.0",
   "description": "A cli that goes hand-in-hand with ramster.",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "mocha index.spec.js",
+    "test-travis": "mocha index.spec.js --configProfile=travisTest"
+  },
   "license": "MIT",
+  "homepage": "https://github.com/RazorDude/ramster-cli#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RazorDude/ramster-cli.git"
+  },
   "dependencies": {
     "chalk": "^2.3.1",
     "co": "^4.6.0",
     "fs-extra": "^5.0.0",
     "path": "^0.12.7",
+    "request": "^2.83.0",
     "request-promise-native": "^1.0.5",
     "yargs": "^11.0.0"
   },
   "engines": {
     "node": ">= 8.9.4"
+  },
+  "devDependencies": {
+    "ramster": "^1.0.0-beta.1"
   }
 }

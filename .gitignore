@@ -7,12 +7,4 @@ debug.log
 debug.log.*
 logs/*
 node_modules
-modules/migrations/syncHistory
-modules/migrations/backup
-public/*
-!public/site
-public/site/*
-!public/site/assets
-storage/*
-!storage/api.yaml
-!storage/importTemplates
+test/*
