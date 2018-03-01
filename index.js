@@ -119,7 +119,7 @@ try {
 		co(function*() {
 			let result = yield request({
 				method: 'get',
-				uri: `127.0.0.1:${config.migrations.serverPort}/${subCommand}`,
+				uri: `http://127.0.0.1:${config.migrations.serverPort}/${subCommand}`,
 				qs: getMethodArguments('migrations', subCommand),
 				resolveWithFullResponse: true
 			})
