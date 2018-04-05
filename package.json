@@ -7,7 +7,7 @@
     "ramster": "./index.js"
   },
   "name": "ramster-cli",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0-beta.2",
   "description": "A cli that goes hand-in-hand with ramster.",
   "main": "index.js",
   "scripts": {

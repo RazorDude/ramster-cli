@@ -52,14 +52,14 @@ try {
 							output.push(undefined)
 							continue
 						}
-						form[argData.name] = undefined
+						output[argData.name] = undefined
 						continue
 					}
 					if (form === 'array') {
 						output.push(argData.default)
 						continue
 					}
-					form[argData.name] = argData.default
+					output[argData.name] = argData.default
 					continue
 				}
 				if (argData.addCWD) {
@@ -69,7 +69,7 @@ try {
 					output.push(value)
 					continue
 				}
-				form[argData.name] = value
+				output[argData.name] = value
 			}
 			return output
 		}
