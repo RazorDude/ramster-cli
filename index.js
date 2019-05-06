@@ -1,5 +1,4 @@
-#!node
-'use strict'
+#!/usr/bin/node
 const
 	argv = require('yargs').argv,
 	co = require('co'),
