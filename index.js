@@ -1,10 +1,9 @@
-#!/usr/bin/node
+#!/usr/bin/env node
 const
 	argv = require('yargs').argv,
 	co = require('co'),
 	chalk = require('chalk'),
 	cwd = process.cwd(),
-	fs = require('fs-extra'),
 	path = require('path'),
 	request = require('request-promise-native')
 try {
